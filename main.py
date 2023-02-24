@@ -19,12 +19,10 @@ import numpy as np
 app = Flask(__name__)
  
 @app.route('/')
-
 def hello_world():
 	return 'Hi'
 
 @app.route('/getPrediction' ,methods = ['POST'] )
-
 def getPrediction():
 	# print(tf.__version__)
 	request_data = json.loads(request.data)
@@ -38,6 +36,12 @@ def getPrediction():
 	print(model.summary())
  
 	return res
+
+
+
+@app.route('/healthz')
+def healthz():
+    return ''
 
 
 if __name__ == '__main__':
