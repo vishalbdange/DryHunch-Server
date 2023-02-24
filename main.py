@@ -21,7 +21,6 @@ app = Flask(__name__)
 @app.route('/')
 
 def hello_world():
-
 	return 'Hi'
 
 @app.route('/getPrediction' ,methods = ['POST'] )
@@ -43,4 +42,4 @@ def getPrediction():
 
 if __name__ == '__main__':
     
-	app.run()
+	app.run(debug=False)
