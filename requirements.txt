@@ -1,0 +1,6 @@
+Flask==2.2.3
+Pillow
+geopy
+numpy
+rasterio
+pyimgur
