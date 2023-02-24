@@ -4,7 +4,7 @@ from geopy.geocoders import Nominatim
 
 from utils.get_sat_image_02 import getSatImg
 import json
-import h5py
+
 
 # import cv2
 import numpy as np
