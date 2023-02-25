@@ -28,6 +28,7 @@
 * DL Model for predicting drought: [Model code](https://github.com/vedika-2000/technoHack-ML-model)
 * Application Working Video: [YouTube Video](https://youtube.com/shorts/gmhBfXCZm-g?feature=share)
 * Dataset Source: [data](https://storage.googleapis.com/wandb_datasets/dw_train_86K_val_10K.zip)
+* Presentation Link: [presentation](https://docs.google.com/presentation/d/1AUpFlwmEUK5a_B9SQ5t69kQXqx23B8uqZ96QCjN9U2c/edit?usp=sharing)
 
 ## Technology stack
 
